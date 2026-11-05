@@ -1,0 +1,11 @@
+Process ID,Service ID,Process,Process owner,Department,Peak periods,RTO (hours),RPO (hours),Key systems,Third parties (incl. intragroup),Third-party recovery in contract (hours),Last tested recovery (hours),Last test date
+P01,S01,Payment initiation and sanctions screening,Payments Operations Manager,Operations,Month end; 25th,2,0.25,Payment hub; screening engine,Screening software vendor,2,2,2026-06-14
+P02,S01,Settlement through the UAE payment systems,Payments Operations Manager,Operations,Daily cut-off times,3,0,Payment hub; core banking,Central bank payment systems (market infrastructure),,3,2026-06-14
+P03,S03,Card authorisation,Cards Operations Manager,Cards,Weekends; Ramadan; sales,1,0,Card switch,Card processor (Vendor X),4,1,2026-03-02
+P04,S03,Fraud monitoring on card transactions,Head of Fraud,Financial Crime,Weekends; sales,2,0.25,Fraud engine,Card processor (Vendor X),4,,
+P05,S04,Letter of credit issuance,Trade Operations Manager,Trade Finance,Quarter end,120,24,Trade platform (15 years old),Trade platform vendor (sole support),120,,
+P06,S04,Guarantee issuance,Trade Operations Manager,Trade Finance,Quarter end,120,24,Trade platform (15 years old),Trade platform vendor (sole support),120,,
+P07,S05,Liquidity management and nostro funding,Head of Treasury Operations,Treasury,Daily funding window,2,0,Treasury system; core banking,Group treasury (intragroup),2,2,2026-05-20
+P08,S05,FX dealing,Head of Dealing Room,Treasury,Market open,4,0,Dealing platform,Market data provider,4,,
+P09,S07,Facility drawdown,Corporate Operations Manager,Corporate Banking,Quarter end,48,24,Loan system; core banking,,,30,2026-02-11
+P10,S08,Monthly management information pack,Financial Controller,Finance,First week of month,72,24,Data warehouse,,,,

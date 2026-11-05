@@ -1,0 +1,7 @@
+Category,1 Minimal,2 Minor,3 Moderate,4 Major,5 Severe
+Customer harm,No noticeable effect on customers,Some customers inconvenienced; a workaround exists,Many customers delayed; complaints rise,"Large numbers of customers cannot pay, get paid or reach their money","Widespread harm: salaries or bills unpaid, penalties, vulnerable customers or businesses affected"
+Market and financial system,No effect outside the bank,Counterparties notice delays,Other banks or a payment system affected locally,Settlement failures affect other institutions or a payment system,Risk of contagion; disruption to the UAE financial system
+Financial loss,Below AED 1m,AED 1m to 5m,AED 5m to 25m,AED 25m to 100m,"Above AED 100m, or loss of key clients"
+Regulatory and legal,No breach,Breach of an internal policy only,Regulatory reporting late or a notification needed,Breach of a regulatory or legal duty; supervisory action likely,"Serious breach: sanctions, licence conditions or criminal liability at risk"
+Reputation,No external attention,Local social media comment,National media coverage for a day,Sustained national coverage; clients start to leave,International coverage; loss of trust; Board and regulator involved
+Operational backlog,Absorbed in normal work,Backlog cleared within a day,Backlog needs overtime or extra staff,Backlog creates errors; manual workarounds cannot be sustained,"Backlog cannot be recovered, or data is lost"

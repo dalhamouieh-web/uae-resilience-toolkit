@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3 (November 2026)
+- Added `04-bia-critical-operations`: BIA methodology, impact matrix and reconciliation workbook (Edition 4).
+- Labelled the three lines of defence in the reporting chain diagram.
+
 ## v0.2 (November 2026)
 - Published on 5 November 2026.
 - Added `02-reporting-chain`: the chain behind a one-page Board report (Edition 2).

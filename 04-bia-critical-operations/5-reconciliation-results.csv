@@ -1,0 +1,9 @@
+Service ID,Service,Critical Operation?,Tolerance used (hours),Board approved?,Processes mapped,Longest RTO (hours),Slowest third party (hours),Slowest test (hours),Processes not tested,Processes with gaps,Status,Reason
+S01,Domestic payments,Yes,4,Yes,2,3,2,3,0,0,GREEN,BIA fits inside the tolerance and is tested
+S02,Salary and payroll processing (payroll day),Yes,4,Yes,0,,,,0,0,RED,No BIA process mapped to this Critical Operation
+S03,Cards authorisation,Yes,2,Yes,2,2,4,1,1,2,RED,"A third party recovers in 4h, beyond tolerance"
+S04,Trade finance issuance,Yes,24,Yes,2,120,120,,2,2,RED,Longest RTO 120h exceeds tolerance 24h
+S05,Treasury and liquidity management,Yes,4,Yes,2,4,4,2,1,0,AMBER,1 process(es) not tested
+S06,Digital wallet,Not assessed,,No (draft),0,,,,0,0,RED,Service not assessed: score it before launch
+S07,Corporate lending (new facilities),No,72,No (draft),1,48,,30,0,0,N/A,Not a Critical Operation
+S08,Internal management reporting,No,721,No (draft),1,72,,,1,0,N/A,Not a Critical Operation

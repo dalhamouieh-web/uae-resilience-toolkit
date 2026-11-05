@@ -1,0 +1,49 @@
+Service ID,Service,Category,1 hour,2 hours,4 hours,8 hours,1 day,3 days,1 week,1 month,Rationale
+S01,Domestic payments,Customer harm,2,3,4,5,5,5,5,5,Customers notice within an hour; payments missed by end of day breach client obligations
+S01,Domestic payments,Market and financial system,2,3,3,4,5,5,5,5,
+S01,Domestic payments,Financial loss,1,2,2,3,4,5,5,5,
+S01,Domestic payments,Regulatory and legal,1,2,3,4,5,5,5,5,
+S01,Domestic payments,Reputation,2,2,3,4,5,5,5,5,
+S01,Domestic payments,Operational backlog,2,3,3,4,4,5,5,5,
+S02,Salary and payroll processing (payroll day),Customer harm,2,3,4,5,5,5,5,5,Scored for the worst realistic time: the 25th of the month. Thousands of employees unpaid by evening
+S02,Salary and payroll processing (payroll day),Market and financial system,1,1,2,2,3,4,4,4,
+S02,Salary and payroll processing (payroll day),Financial loss,1,1,2,2,3,4,5,5,
+S02,Salary and payroll processing (payroll day),Regulatory and legal,1,2,2,3,4,5,5,5,
+S02,Salary and payroll processing (payroll day),Reputation,1,2,3,4,5,5,5,5,
+S02,Salary and payroll processing (payroll day),Operational backlog,2,2,3,4,4,5,5,5,
+S03,Cards authorisation,Customer harm,3,4,5,5,5,5,5,5,Declined cards are visible immediately; social media within the first hour
+S03,Cards authorisation,Market and financial system,1,2,2,3,3,4,4,4,
+S03,Cards authorisation,Financial loss,1,2,3,3,4,5,5,5,
+S03,Cards authorisation,Regulatory and legal,1,1,2,2,3,4,5,5,
+S03,Cards authorisation,Reputation,2,3,4,5,5,5,5,5,
+S03,Cards authorisation,Operational backlog,1,2,2,3,4,4,5,5,
+S04,Trade finance issuance,Customer harm,1,2,2,3,4,5,5,5,Shipments and contracts wait on our documents; large clients move business after a day
+S04,Trade finance issuance,Market and financial system,1,1,1,1,2,3,4,4,
+S04,Trade finance issuance,Financial loss,1,1,1,2,4,5,5,5,
+S04,Trade finance issuance,Regulatory and legal,1,1,1,2,2,3,4,4,
+S04,Trade finance issuance,Reputation,1,1,1,2,3,4,5,5,
+S04,Trade finance issuance,Operational backlog,1,1,2,3,4,5,5,5,
+S05,Treasury and liquidity management,Customer harm,1,1,1,2,3,4,5,5,Missing the daily funding window breaks regulatory ratios and settlement with other banks
+S05,Treasury and liquidity management,Market and financial system,1,2,3,4,5,5,5,5,
+S05,Treasury and liquidity management,Financial loss,1,2,3,4,5,5,5,5,
+S05,Treasury and liquidity management,Regulatory and legal,1,2,4,5,5,5,5,5,
+S05,Treasury and liquidity management,Reputation,1,1,2,3,4,5,5,5,
+S05,Treasury and liquidity management,Operational backlog,1,2,3,4,5,5,5,5,
+S06,Digital wallet,Customer harm,,,,,,,,,Not assessed: launches in December. Must be scored before launch
+S06,Digital wallet,Market and financial system,,,,,,,,,
+S06,Digital wallet,Financial loss,,,,,,,,,
+S06,Digital wallet,Regulatory and legal,,,,,,,,,
+S06,Digital wallet,Reputation,,,,,,,,,
+S06,Digital wallet,Operational backlog,,,,,,,,,
+S07,Corporate lending (new facilities),Customer harm,1,1,1,2,3,4,5,5,Clients can usually wait a day; after three days drawdowns are missed
+S07,Corporate lending (new facilities),Market and financial system,1,1,1,1,1,2,2,3,
+S07,Corporate lending (new facilities),Financial loss,1,1,1,1,2,3,4,5,
+S07,Corporate lending (new facilities),Regulatory and legal,1,1,1,1,1,2,3,4,
+S07,Corporate lending (new facilities),Reputation,1,1,1,1,2,3,4,5,
+S07,Corporate lending (new facilities),Operational backlog,1,1,2,2,3,4,5,5,
+S08,Internal management reporting,Customer harm,1,1,1,1,1,1,1,1,A delayed internal report harms nobody outside the bank
+S08,Internal management reporting,Market and financial system,1,1,1,1,1,1,1,1,
+S08,Internal management reporting,Financial loss,1,1,1,1,1,1,1,1,
+S08,Internal management reporting,Regulatory and legal,1,1,1,1,1,1,1,2,
+S08,Internal management reporting,Reputation,1,1,1,1,1,1,1,1,
+S08,Internal management reporting,Operational backlog,1,1,1,1,1,2,2,3,

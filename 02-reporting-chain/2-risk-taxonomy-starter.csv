@@ -1,0 +1,17 @@
+Level-1 category (ORX reference names),Plain-language meaning (our wording),Example level-2 risks,Suggested senior owner,Closest Basel event type (indicative),Close to ICT and resilience?
+People,"Not having enough of the right people, or employment-related failures",Key-person dependency; skills gaps; employment disputes,Head of HR,Employment practices and workplace safety,Partly
+External fraud,Someone outside the bank deceives it or its clients for gain,Payment fraud; account takeover; card fraud,Head of Fraud,External fraud,Partly
+Internal fraud,Someone inside the bank acts dishonestly for gain,Unauthorised activity; theft by staff,Head of Fraud,Internal fraud,No
+Physical security and safety,"Harm to people, buildings or equipment",Office access; fire; workplace safety,Head of Facilities,Damage to physical assets,Partly
+Business continuity,A disruption stops a service from being delivered,Site loss; pandemic; failed recovery,Head of BCM,Business disruption and system failures,Yes
+Transaction processing and execution,"Errors in processing, booking or settling transactions",Payment errors; failed settlement; reconciliation breaks,COO,"Execution, delivery and process management",Partly
+Technology,"Systems fail, perform badly or are changed badly",Outages; capacity; failed change; obsolete systems,CIO,Business disruption and system failures,Yes
+Conduct,Poor outcomes for clients or markets because of how the bank behaves,Mis-selling; unfair treatment,Chief Compliance Officer,"Clients, products and business practices",No
+Legal,Contracts or legal positions that do not protect the bank,Weak contract terms; litigation,General Counsel,"Clients, products and business practices",Partly
+Financial crime,"The bank is used for money laundering, sanctions breaches or bribery",Sanctions screening failure; AML gaps,MLRO,"Clients, products and business practices",Partly
+Regulatory compliance,Breaking a rule or missing a regulatory duty,Late regulatory notification; licence conditions,Chief Compliance Officer,"Clients, products and business practices",Partly
+Third party,"A provider, partner or group entity fails or causes harm",Vendor outage; concentration; weak exit plan,Head of Procurement or Vendor Management,"Execution, delivery and process management",Yes
+Information security (including cyber),"Data or systems are accessed, changed or destroyed by attack or misuse",Ransomware; data breach; privileged access misuse,CISO,External fraud; Business disruption and system failures,Yes
+Statutory reporting and tax,Wrong or late statutory or tax reporting,Financial reporting errors; tax filing,CFO,"Execution, delivery and process management",No
+Data management,"Data is wrong, incomplete, lost or kept in the wrong place",Data quality; retention; data residency,Chief Data Officer,"Execution, delivery and process management",Yes
+Model,A model or complex spreadsheet is badly designed or wrongly used,Spreadsheet errors; model misuse,Head of Model Risk,"Execution, delivery and process management",Partly

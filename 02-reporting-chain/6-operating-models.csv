@@ -1,0 +1,7 @@
+Profile,Where the data lives,The hard part,Where to start
+Mostly in-house IT,The bank's own tools,"Many tools, inconsistent definitions",Data contracts across IT teams; one asset inventory
+"Hybrid (some outsourced, some cloud)",Split between the bank and its providers,Gaps at the boundary: who reports what,A responsibility matrix per process with each provider; reconcile inventories
+Mostly outsourced or group-provided,In provider systems and reports,"The bank sees only what the provider reports, but stays accountable","Contractual reporting: KPIs, incident notice in hours, audit and data access, then independent checks"
+"Smaller, less complex institution",Few systems,Limited people and tooling,"5 to 8 indicators, quarterly; documented manual aggregation can be enough"
+Large or systemically important institution,Many systems and entities,"Scale, automation and timeliness",Board risk committee; automated aggregation; monthly reporting by business line and entity
+Group with free-zone entities or a foreign parent,Across entities and jurisdictions,"Different regulators, one group",One taxonomy for the group; reporting per regulated entity; no gaps between them

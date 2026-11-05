@@ -1,0 +1,11 @@
+Activity,Board,Board Risk Committee,CRO and ICT risk (2nd line),CIO,CISO,Procurement,Business owners,Data or tool owner,Internal audit
+"Approve risk appetite, thresholds and tolerance for disruption",A,C,R,C,C,I,C,I,I
+Define each indicator (data contract),I,I,A,C,C,C,C,R,I
+Own and maintain source data,,,I,A,C,C,C,R,I
+Extract data on the agreed cut-off,,,I,A,C,C,,R,I
+Check data quality and reconcile,,,A,C,C,,,R,I
+Compare to thresholds and rate status,,I,A/R,C,C,C,C,,I
+Assess external threats and exposure,,I,C,C,A/R,C,,,I
+Draft and sign off the Board page,I,C,A/R,C,C,C,C,,I
+Challenge and decide,A,R,C,I,I,I,I,,I
+Assure the whole chain,I,I,I,I,I,I,I,I,A/R

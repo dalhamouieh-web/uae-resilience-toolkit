@@ -1,0 +1,11 @@
+#,Anchor,Question to answer,Evidence to look for,Typical owner,Status,Notes
+1,Business strategy,Are the bank's three to five strategic objectives written down and approved by the Board?,"Strategy document, Board minutes",CEO,In progress,Bank Horizon: wallet growth and corporate fees named; free-zone plan missing
+2,Business strategy,Does every major IT and cyber programme name the business objective and the Critical Operation it protects?,Change portfolio with objective and Critical Operation per programme,"CIO, PMO",Not started,
+3,ERM framework,"Are operational, ICT and cyber risk inside the enterprise risk framework, with one rating scale?","ERM framework, risk rating method",CRO,Done,
+4,Risk appetite,"Does the appetite cover ICT and cyber risk and the tolerance for disruption, approved by the Board itself at least annually?","Appetite statement, Board minutes","CRO, Board",Done,
+5,Risk appetite,Is every key risk indicator threshold derived from an appetite statement?,Mapping of indicators to appetite statements,CRO,In progress,
+6,Risk taxonomy,"Do IT, risk, compliance, internal audit and the incident tool all use the same risk categories?","Taxonomy document, tool configuration",Head of Operational Risk,Not started,IT incident tool uses its own list
+7,Risk taxonomy,Does each level-1 category have a named senior owner?,Taxonomy with owners,Head of Operational Risk,In progress,
+8,IT strategy,Do the target architecture and the plan for obsolete systems refer to Critical Operations?,"IT strategy, obsolescence plan",CIO,In progress,
+9,Cyber strategy,Are security objectives measured by indicators that appear in the Board report?,"Cyber strategy, indicator list",CISO,In progress,
+10,Resilience strategy,Does the operational resilience strategy tie the above together around Critical Operations and the tolerance for disruption?,Resilience strategy,"CRO, COO",Not started,

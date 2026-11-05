@@ -1,0 +1,8 @@
+Step,From,To,What happens,Person or role,Manual?,Control or check at this step,Evidence kept,Issue found
+1,Assets,Vulnerability scanner,Weekly scan of in-scope assets,Security operations,No,Scan coverage checked against asset inventory,Scan log,8 servers not in scan scope
+2,Scanner,CSV export,Monthly export of open findings,Security analyst,Yes,,,Export filter changed by hand each month
+3,CSV export,Team spreadsheet,"Filter to high and critical, past deadline",Security analyst,Yes,,Spreadsheet saved on shared drive,"Deadline counted from release date, not approval date"
+4,Team spreadsheet,Team spreadsheet,Remove approved exceptions,Security analyst,Yes,Exception register checked,,Two expired exceptions still removed
+5,Team spreadsheet,ICT risk,Email to second line,Head of Security Operations,Yes,,Email,
+6,ICT risk,Board page,Compare to thresholds and rate status,ICT risk analyst,Yes,Four-eyes review,Review note,
+7,Board page,Board,Included in the one-page report,CRO,No,CRO sign-off,Sign-off record,

@@ -1,0 +1,9 @@
+Report block,Produces the data (1st line),Aggregates and challenges (2nd line),Independent assurance (3rd line),Decides (Board)
+Six outcomes status,"Outcome owners: CIO, CISO, COO, Procurement",Operational and ICT risk propose the rating,Reviews the rating method,Challenges and notes
+Key risk indicators,"Tool owners in IT, security and identity teams",ICT risk calculates and compares to thresholds,Tests data lineage on a sample,Approves the thresholds
+Critical Operations vs tolerance,Business process owners and BCM,Operational risk checks tests against tolerance,Reviews BCP and DR testing,Approves the tolerance for disruption
+External view,"Threat intelligence, CISO, Compliance, vendor managers",ICT risk challenges exposure and links to appetite,Reviews the method,Is informed; decides on major exposures
+Incidents,Incident manager and security operations,Operational risk checks classification and notices,Samples past incidents,Is informed; regulator notified
+Third parties,Vendor owners and Procurement,Third-party risk: concentration and exit,Reviews oversight of providers,Approves the third-party strategy
+Testing and controls,Control owners and test teams,Tests key controls independently,Assures first and second line,Receives the results
+Remediation,Action owners,Tracks and validates closure,Validates closure of audit findings,Approves any date change

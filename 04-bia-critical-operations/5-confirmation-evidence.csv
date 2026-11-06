@@ -1,0 +1,8 @@
+Service ID,Customers affected at tolerance point,Annual income at risk,Market infrastructure or other banks affected (Y/N),Licence or serious regulatory breach (Y/N),Evidence note
+S01,0.4,0.03,Y,N,Most retail and corporate clients pay or are paid every day; settles through the national payment systems
+S02,0.15,0.01,N,N,"Around 2,000 corporate clients pay salaries through us on the 25th"
+S03,0.35,0.02,N,N,Card income is 14% of the total; most retail clients hold a card
+S04,0.01,0.04,N,N,"Few clients, but they are the largest; trade finance fees exceed all digital income"
+S05,0.0,0.05,Y,Y,Missing the funding window breaks liquidity ratios and settlement with other banks
+S07,0.01,0.01,N,N,Clients can usually wait a day; no evidence reaches a threshold
+S08,0.0,0.0,N,N,Internal only

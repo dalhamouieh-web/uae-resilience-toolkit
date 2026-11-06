@@ -1,63 +1,81 @@
-# 04. BIA methodology: from processes to Critical Operations
+# 04. From the BIA to Critical Operations
 
 Companion to *The Resilience Bridge*, Edition 4: **Follow the Money**.
 
-Most banks already have a business impact analysis (BIA). This folder shows how to use it as the starting point for Critical Operations and the tolerance for disruption, then test it against the money and the customer harm, and reconcile the two so the Board sees one consistent picture.
+Most banks already have a business impact analysis (BIA). This folder shows how to use it as the starting point for Critical Operations, test it against the money and the customer harm, find the systems that really matter, and check that every recovery time fits inside the tolerance the Board approved.
 
-> **The logic in one line:** start from the BIA you have, score each service's impact over time, set the tolerance at the service level, then make every recovery time in the BIA fit inside it.
+![Four stages](bia-logic.svg)
 
-![BIA logic](bia-logic.svg)
+## The approach in four stages
+
+| Stage | Question | What you do | What you get | Sheet |
+| --- | --- | --- | --- | --- |
+| **1. Screen** | What could matter? | Every function in the inventory, the existing BIA included, gets one quick score per impact category: *if it stopped for a day at the worst moment, how bad?* | A short list for Stage 2. Moderate (3) or more goes on; everything else is reviewed annually | 3 |
+| **2. Confirm** | What really matters, and for how long? | Score each candidate over time, from 1 hour to 1 month. Then check the scores against hard evidence: customers affected, income at risk, market or licence impact | Critical Operations and a draft tolerance for each, confirmed, challenged or upgraded by the evidence, and approved by the Board | 4, 5 |
+| **3. Map** | What delivers it? | Break each Critical Operation into processes (RTO, RPO, people, third parties, tests). Run each system through a three-question decision tree | The process BIA and a list of critical systems, each with a reason | 6, 7 |
+| **4. Reconcile** | Does it all fit? | Compare every recovery time, provider and test with the tolerance | RED, AMBER or GREEN with the reason: the block for the Board report | 8 |
+
+**Why stages?** Scoring 120 functions in depth wastes months. Screening is quick and generous; the effort goes where it matters. And no score stands on its own: Stage 2 checks the scores against evidence, in both directions.
+
+## The rules, in one place
+
+| Rule | Default | Where to change it |
+| --- | --- | --- |
+| Use the highest score across the categories, never the average | Always | |
+| Stage 1: go to Stage 2 if the highest score is at least | Moderate (3) | Sheet 2 |
+| Stage 2: Critical Operation if any category reaches Major (4) within | 1 business day | Sheet 2 |
+| Stage 2: draft tolerance is the last point in time before any category reaches | Severe (5) | Sheet 2 |
+| Stage 2: evidence confirms if customers affected or income at risk reach a threshold, or a payment system or the licence is affected | 5% of customers, 2% of income (illustrative) | Sheet 2 |
+| Stage 3: a system is critical if no tested workaround and no critical backup keeps the service within tolerance | Always | |
+| Stage 3: a system is also critical if wrong, leaked or forged data in it would cause Major harm | On (switch off for availability only) | Sheet 2 |
+| Stage 4: every RTO, provider recovery and tested recovery must fit inside the tolerance | Always | |
+
+All thresholds are illustrative. Set your own, have them approved, and record why.
+
+## The three questions for systems (Stage 3)
+
+For each application supporting a confirmed Critical Operation:
+
+1. **Workaround:** if it is down, does a *tested* workaround keep the service within its tolerance, with the staff you actually have?
+2. **Backup:** can another system, already classed as critical, take over?
+3. **Data:** would wrong, leaked or forged data in it cause Major harm?
+
+No to both 1 and 2: critical for availability. Yes to 3: critical for data. Many firms look at availability only. For a bank that is rarely enough: a payment system that is up but sends the wrong amounts is not resilient.
 
 ## What is inside
 
 | File | What it is |
 | --- | --- |
-| [`procedure.md`](procedure.md) | The full procedure: eight steps, roles, workshop questions, quality checks, glossary, references |
-| [`impact-matrix.md`](impact-matrix.md) | The impact matrix: six categories, five levels, eight points in time, three rules, and a worked example |
-| [`bia-toolkit.xlsx`](bia-toolkit.xlsx) | The working model. Score services, and the formulas derive Critical Operations, draft tolerances and a RED / AMBER / GREEN reconciliation |
+| [`procedure.md`](procedure.md) | The full procedure, stage by stage: roles, workshop questions, evidence, decision tree, quality checks, glossary, references |
+| [`impact-matrix.md`](impact-matrix.md) | Six categories, five levels, eight points in time, the rules and a worked example |
+| [`bia-toolkit.xlsx`](bia-toolkit.xlsx) | The working model: nine sheets, all logic in formulas |
 | [`bia-logic.svg`](bia-logic.svg) | The diagram above |
-| `1-impact-scale.csv` to `5-reconciliation-results.csv` | The same data as CSV, for loading into a GRC tool |
+| `1-impact-scale.csv` to `8-reconciliation-results.csv` | The same data as CSV, for a GRC tool |
 
-## The workbook
-
-| Sheet | What you do | What it calculates |
-| --- | --- | --- |
-| Start here | Read | |
-| 1 Impact scale | Calibrate the descriptors to your risk appetite | |
-| 2 Time buckets | Keep or change the points in time and the rule parameters | |
-| 3 Service impact | Score each service, six categories, eight points in time | Flags any score that falls over time |
-| 4 Service summary | Enter the Board-approved tolerance | Highest score per point in time, first Major impact, Critical Operation yes / no, draft tolerance |
-| 5 Process BIA | Enter processes, RTO, RPO, systems, third parties, test results | Each process against its service's tolerance |
-| 6 Reconciliation | Read and act | One status and reason per service: the Board report block |
-
-Light yellow cells are inputs. Everything else is a formula.
-
-## The three rules
-
-1. **Highest score, never the average.** A client who cannot be paid does not care that the backlog is fine.
-2. **Critical Operation:** any category reaches **Major (4) within one business day.** Edition 4's test: *if this stopped for a day, would the Board need to know before the end of that day?*
-3. **Draft tolerance:** the **last point in time before any category reaches Severe (5).** The Board approves the final value.
+Light yellow cells in the workbook are inputs. Everything else is a formula.
 
 ## What Bank Horizon's example shows
 
-Eight sample services, scored and reconciled:
+- **Stage 1:** 16 functions screened; 11 go to Stage 2, five are reviewed annually. Sanctions screening, onboarding, regulatory reporting and mobile banking are still "to do": the work is never finished in one pass.
+- **Stage 2:** five Critical Operations confirmed. Corporate lending passed screening but the evidence did not confirm it. The wallet is not assessed yet, which is the finding.
+- **Stage 3:** six critical systems out of eleven, with a reason for each. The card fraud engine is "supporting", because a tested fallback to fixed limits covers the tolerance. The dealing platform is supporting because a critical backup can take over.
+- **Stage 4:**
 
-| Service | Critical? | Tolerance | Status | Why |
-| --- | --- | --- | --- | --- |
-| Domestic payments | Yes | 4 hours | GREEN | Fits and tested |
-| Salary and payroll (payroll day) | Yes | 4 hours | RED | No BIA process mapped: three departments each assumed another owned it |
-| Cards authorisation | Yes | 2 hours | RED | The card processor's contract allows 4 hours |
-| Trade finance issuance | Yes | 1 day | RED | The old BIA said recover in 5 days, because that is what the platform can do |
-| Treasury and liquidity | Yes | 4 hours | AMBER | One process never tested |
-| Digital wallet | Not assessed | | RED | Launches in December without a score |
-| Corporate lending (new facilities) | No | 3 days | N/A | Clients can wait a day |
-| Internal management reporting | No | Over 1 month | N/A | Harms nobody outside the bank |
+| Service | Tolerance | Status | Why |
+| --- | --- | --- | --- |
+| Domestic payments | 4 hours | GREEN | Fits and tested |
+| Salary and payroll (payroll day) | 4 hours | RED | No BIA process mapped: three departments each assumed another owned it |
+| Cards authorisation | 2 hours | RED | The card processor's contract allows 4 hours |
+| Trade finance issuance | 1 day | RED | The old BIA said recover in 5 days, because that is what the platform can do |
+| Treasury and liquidity | 4 hours | AMBER | One process never tested |
+| Digital wallet | | RED | Launches without an assessment |
 
 ## Further reading
 
 - ISO/TS 22317:2021, *Guidelines for business impact analysis*: starts at products and services, then processes and activities.
 - BCI, *Good Practice Guidelines* (GPG 7.0): product and service, process and activity BIAs.
 - Andrew Hiles, *Business Continuity Management: Global Best Practices* (4th edition, Rothstein).
+- Deloitte, *European survey on DORA* (2026): most surveyed firms identify critical or important functions through a business-led approach grounded in the BIA.
 - NIST SP 800-34 Rev. 1: a free BIA template for systems.
 
 > All data is fictional and illustrative. Templates, not legal or regulatory advice. Always check the official texts.

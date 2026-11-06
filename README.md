@@ -13,7 +13,7 @@ Each folder matches one edition of the newsletter. Each one contains a short gui
 | [`01-board-reporting`](01-board-reporting/) | 1. The One-Page Board Report | A sample Board dashboard layout, including the external threat view | Available |
 | [`02-reporting-chain`](02-reporting-chain/) | 2. Behind the Page: How the Numbers Get There | Anchors checklist, risk taxonomy starter, who-does-what and RACI, KRI data contracts, lineage trace, operating models, readiness score | Available |
 | `03-ownership` | 3. Who Owns the Risk When Everyone Owns It? | Ownership chain, control record fields | Coming |
-| [`04-bia-critical-operations`](04-bia-critical-operations/) | 4. Follow the Money | BIA methodology: impact matrix, full procedure, and a workbook that turns service scores into Critical Operations, tolerances and a RED / AMBER / GREEN reconciliation | **New** |
+| [`04-bia-critical-operations`](04-bia-critical-operations/) | 4. Follow the Money | From the BIA to Critical Operations in four stages (screen, confirm, map, reconcile): procedure, impact matrix, critical-systems decision tree and workbook | **New** |
 | `05-mapping` | 5. The Map Nobody Had | Mapping one Critical Operation in 30 days | Coming |
 | `06-roles` | 6. Who Reports to Whom? | Role cards, RACI, operating models | Coming |
 | `07-ict-rmf` | 7. The House of Documents | Document map and templates per layer | Coming |

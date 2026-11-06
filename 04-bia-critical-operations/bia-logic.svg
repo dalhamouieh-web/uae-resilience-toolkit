@@ -1,47 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="IBM Plex Sans, Arial, sans-serif" role="img" aria-label="BIA logic: start from the existing BIA, build services from the money and the customers, score impact over time, set Critical Operations and the Board-approved tolerance, then go down to the process BIA and dependencies, reconcile recovery times against the tolerance, test, report and refresh.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" font-family="IBM Plex Sans, Arial, sans-serif" role="img" aria-label="Four stages. Stage 1 Screen: every function, one quick score per category, Moderate or above goes on. Stage 2 Confirm: score impact over time, set the draft tolerance, check against evidence, Board approves. Stage 3 Map: process BIA and a three-question decision tree for critical systems. Stage 4 Reconcile: does every recovery time fit inside the tolerance, red amber or green, Board report, refresh.">
 <rect width="100%" height="100%" fill="#f7f5f0"/>
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8a8578"/></marker></defs>
-<text x="24" y="32" font-size="15" font-weight="600" fill="#14213d">BIA logic: go down from the service, then make the BIA fit inside the tolerance</text>
-<text x="24" y="58" font-size="11" font-weight="600" fill="#8a6420" letter-spacing=".05em">SERVICE LEVEL: WHAT CLIENTS AND THE MARKET RELY ON</text>
+<text x="24" y="32" font-size="15" font-weight="600" fill="#14213d">From the BIA to Critical Operations in four stages</text>
+<text x="24" y="52" font-size="11.5" fill="#555">Wide at the start, narrow at the end: about 120 functions in, a dozen Critical Operations and their systems out</text>
 <g fill="#ffffff" stroke="#c9c3b5" stroke-width="1.25">
-<rect x="24" y="68" width="160" height="104" rx="8"/><rect x="200" y="68" width="160" height="104" rx="8"/><rect x="376" y="68" width="160" height="104" rx="8"/>
+<rect x="24" y="70" width="166" height="250" rx="8"/><rect x="206" y="70" width="166" height="250" rx="8"/><rect x="388" y="70" width="166" height="250" rx="8"/>
 </g>
-<rect x="552" y="68" width="184" height="104" rx="8" fill="#f6ecd6" stroke="#c9a15a" stroke-width="2"/>
-<g font-size="12.5" font-weight="600" fill="#14213d">
-<text x="36" y="90">0-1  Existing BIA</text><text x="212" y="90">2  Services</text><text x="388" y="90">3  Impact over time</text><text x="564" y="90">4  Critical? Tolerance</text>
-</g>
+<rect x="570" y="70" width="166" height="250" rx="8" fill="#f6ecd6" stroke="#c9a15a" stroke-width="2"/>
+<g font-size="10.5" font-weight="600" fill="#8a6420" letter-spacing=".06em"><text x="36" y="92">STAGE 1</text><text x="218" y="92">STAGE 2</text><text x="400" y="92">STAGE 3</text><text x="582" y="92">STAGE 4</text></g>
+<g font-size="14" font-weight="600" fill="#14213d"><text x="36" y="112">Screen</text><text x="218" y="112">Confirm</text><text x="400" y="112">Map</text><text x="582" y="112">Reconcile</text></g>
+<g font-size="11" fill="#14213d" font-style="italic"><text x="36" y="132">What could matter?</text><text x="218" y="132">What really matters,</text><text x="218" y="146">and for how long?</text><text x="400" y="132">What delivers it?</text><text x="582" y="132">Does it all fit?</text></g>
+<path d="M36 156H178M218 156H360M400 156H542M582 156H724" stroke="#d9d4c7"/>
 <g font-size="11" fill="#555">
-<text x="36" y="110">Keep it, test it:</text><text x="36" y="126">age, authors, unit,</text><text x="36" y="142">recovery times, gaps</text>
-<text x="212" y="110">Income statement</text><text x="212" y="126">Products and clients</text><text x="212" y="142">Obligations + old BIA</text><text x="212" y="158">Named as clients see it</text>
-<text x="388" y="110">6 categories x 5 levels</text><text x="388" y="126">x 8 points in time</text><text x="388" y="142">Worst realistic moment</text><text x="388" y="158">Highest score, not average</text>
-<text x="564" y="110" fill="#14213d">Major (4) within 1 day</text><text x="564" y="126" fill="#14213d">= Critical Operation</text><text x="564" y="142" fill="#14213d">Last point before Severe (5)</text><text x="564" y="158" fill="#14213d">= tolerance, Board approves</text>
+<text x="36" y="176">Every function in the</text><text x="36" y="192">inventory, existing BIA</text><text x="36" y="208">included</text><text x="36" y="230">One quick score per</text><text x="36" y="246">category: one day down,</text><text x="36" y="262">worst moment</text><text x="36" y="284" fill="#14213d" font-weight="600">Moderate (3) or more</text><text x="36" y="300" fill="#14213d" font-weight="600">goes to Stage 2</text>
+<text x="218" y="176">Score over time,</text><text x="218" y="192">1 hour to 1 month</text><text x="218" y="214" fill="#14213d" font-weight="600">Major (4) within a day</text><text x="218" y="230" fill="#14213d" font-weight="600">= Critical Operation</text><text x="218" y="252">Evidence confirms,</text><text x="218" y="268">challenges or upgrades</text><text x="218" y="290" fill="#14213d" font-weight="600">Board approves list</text><text x="218" y="306" fill="#14213d" font-weight="600">and tolerances</text>
+<text x="400" y="176">Process BIA: RTO, RPO,</text><text x="400" y="192">people, sites, tests</text><text x="400" y="208">Third parties incl.</text><text x="400" y="224">intragroup</text><text x="400" y="246">Critical systems:</text><text x="400" y="262">three questions</text><text x="400" y="284" fill="#14213d" font-weight="600">Workaround? Backup?</text><text x="400" y="300" fill="#14213d" font-weight="600">Bad data = Major harm?</text>
+<text x="582" y="176" fill="#14213d">RTO within tolerance?</text><text x="582" y="192" fill="#14213d">Provider within RTO?</text><text x="582" y="208" fill="#14213d">Tested within RTO?</text><text x="582" y="230" fill="#14213d" font-weight="600">RED / AMBER / GREEN</text><text x="582" y="252">Board report block</text><text x="582" y="268">Annual + on change</text><text x="582" y="290">Next BIA starts from</text><text x="582" y="306">the Critical Operations</text>
 </g>
-<g fill="none" stroke="#8a8578" stroke-width="1.25">
-<path d="M184 120H198" marker-end="url(#a)"/><path d="M360 120H374" marker-end="url(#a)"/><path d="M536 120H550" marker-end="url(#a)"/>
-<path d="M644 172V212" marker-end="url(#a)"/>
-</g>
-<text x="654" y="198" font-size="10.5" fill="#8a6420" font-weight="600">go down</text>
-<text x="200" y="232" font-size="11" font-weight="600" fill="#8a6420" letter-spacing=".05em">PROCESS LEVEL: WHAT DELIVERS EACH CRITICAL OPERATION</text>
-<g fill="#ffffff" stroke="#c9c3b5" stroke-width="1.25">
-<rect x="552" y="242" width="184" height="104" rx="8"/><rect x="376" y="242" width="160" height="104" rx="8"/><rect x="24" y="242" width="160" height="104" rx="8"/>
-</g>
-<rect x="200" y="242" width="160" height="104" rx="8" fill="#f6ecd6" stroke="#c9a15a" stroke-width="2"/>
-<g font-size="12.5" font-weight="600" fill="#14213d">
-<text x="564" y="264">5a  Process BIA</text><text x="388" y="264">5b  Dependencies</text><text x="212" y="264">6  Reconcile</text><text x="36" y="264">7  Test, report, refresh</text>
-</g>
-<g font-size="11" fill="#555">
-<text x="564" y="284">RTO, RPO per process</text><text x="564" y="300">Peaks, minimum staff</text><text x="564" y="316">RTO set to fit tolerance,</text><text x="564" y="332">not the other way round</text>
-<text x="388" y="284">Systems, data, sites</text><text x="388" y="300">Third parties incl.</text><text x="388" y="316">intragroup, with their</text><text x="388" y="332">recovery times</text>
-<text x="212" y="284" fill="#14213d">RTO within tolerance?</text><text x="212" y="300" fill="#14213d">Provider within RTO?</text><text x="212" y="316" fill="#14213d">Tested within RTO?</text><text x="212" y="332" fill="#14213d">RED / AMBER / GREEN</text>
-<text x="36" y="284">Severe but plausible</text><text x="36" y="300">Board report block</text><text x="36" y="316">Annual + on change</text><text x="36" y="332">Next BIA starts here</text>
-</g>
-<g fill="none" stroke="#8a8578" stroke-width="1.25">
-<path d="M552 294H538" marker-end="url(#a)"/><path d="M376 294H362" marker-end="url(#a)"/><path d="M200 294H186" marker-end="url(#a)"/>
-<path d="M104 242V184" stroke-dasharray="4 3" marker-end="url(#a)"/>
-</g>
-<text x="112" y="214" font-size="10.5" fill="#8a6420" font-weight="600">feed back</text>
-<rect x="24" y="370" width="712" height="46" rx="8" fill="#efebe2" stroke="#c9c3b5"/>
-<text x="380" y="390" text-anchor="middle" font-size="12.5" font-weight="600" fill="#14213d">If a recovery time does not fit the tolerance, that is a finding for the Board,</text>
-<text x="380" y="407" text-anchor="middle" font-size="12.5" font-weight="600" fill="#14213d">not a reason to widen the tolerance.</text>
+<g fill="none" stroke="#8a8578" stroke-width="1.25"><path d="M190 195H204" marker-end="url(#a)"/><path d="M372 195H386" marker-end="url(#a)"/><path d="M554 195H568" marker-end="url(#a)"/>
+<path d="M653 320V346H107V324" stroke-dasharray="4 3" marker-end="url(#a)"/></g>
+<rect x="300" y="336" width="160" height="20" fill="#f7f5f0"/><text x="380" y="350" text-anchor="middle" font-size="10.5" font-weight="600" fill="#8a6420">feed back every year</text>
+<g font-size="11" fill="#555"><text x="36" y="384">Sheet 3</text><text x="218" y="384">Sheets 4 and 5</text><text x="400" y="384">Sheets 6 and 7</text><text x="582" y="384">Sheet 8</text></g>
+<rect x="24" y="404" width="712" height="46" rx="8" fill="#efebe2" stroke="#c9c3b5"/>
+<text x="380" y="424" text-anchor="middle" font-size="12.5" font-weight="600" fill="#14213d">If a recovery time does not fit the tolerance, that is a finding for the Board,</text>
+<text x="380" y="441" text-anchor="middle" font-size="12.5" font-weight="600" fill="#14213d">not a reason to widen the tolerance.</text>
 </svg>

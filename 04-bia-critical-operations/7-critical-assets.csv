@@ -1,0 +1,12 @@
+App ID,Application,Main service ID,Q1 Tested workaround keeps service within tolerance (Y/N),Q2 Critical backup system can take over (Y/N),Q3 Bad data would cause Major harm (Y/N),Owner
+A01,Payment hub,S01,N,N,Y,Head of Payments IT
+A02,Sanctions screening engine,S01,N,N,Y,Head of Financial Crime IT
+A03,Core banking system,S01,N,N,Y,CIO
+A04,Card switch,S03,N,N,N,Head of Cards IT
+A05,Card fraud engine,S03,Y,N,N,Head of Fraud
+A06,Trade finance platform,S04,N,N,Y,Head of Corporate IT
+A07,Treasury management system,S05,N,N,Y,Head of Treasury IT
+A08,Dealing platform,S05,N,Y,N,Head of Treasury IT
+A09,Corporate email and collaboration,S01,Y,N,N,Head of Workplace IT
+A10,Data warehouse,S08,Y,N,N,Chief Data Officer
+A11,Wallet app and backend,S06,,,,Head of Digital

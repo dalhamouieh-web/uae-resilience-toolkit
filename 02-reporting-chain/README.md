@@ -6,7 +6,7 @@ A Board report on operational resilience and ICT risk is only as good as the cha
 
 ![The reporting chain](reporting-chain.svg)
 
-*Read it top to bottom, then left to right: the business strategy sets the direction, the anchors decide what is measured and in which language, data flows from source systems through the first and second lines to the Board, and internal audit assures the whole chain.*
+*Read it top to bottom, then left to right: the business strategy sets the direction, the anchors decide what is measured and in which language (the ERM framework covers every risk; the ORM framework inside it covers operational risk, including ICT and cyber), data flows from source systems through the first and second lines to the Board, and internal audit assures the whole chain.*
 
 ## Use it in 30 minutes
 
@@ -22,7 +22,7 @@ Light yellow cells are inputs. Every sheet starts with a filled example for the 
 | File | What it is for |
 | --- | --- |
 | `reporting-chain-toolkit.xlsx` | The workbook: all seven templates, with dropdowns and checks |
-| `1-anchors-checklist.csv` | Ten questions: business strategy, ERM, appetite, taxonomy, IT and cyber strategy |
+| `1-anchors-checklist.csv` | Eleven questions: business strategy, the ERM framework and the ORM framework inside it, appetite, taxonomy, IT and cyber strategy |
 | `2-risk-taxonomy-starter.csv` | Sixteen level-1 risk categories with plain-language meanings, owners and Basel mapping |
 | `3a-who-does-what.csv` | First, second and third line, and the Board, for each block of the Board page |
 | `3b-raci-reporting-chain.csv` | RACI for the ten activities of the reporting chain |

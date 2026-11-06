@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.3.1 (November 2026)
+- Reporting chain: the ORM framework now sits inside the ERM framework in the diagram and the anchors checklist; the CISO's first-line placement is explained.
+
 ## v0.3 (November 2026)
 - Added `04-bia-critical-operations`: from the BIA to Critical Operations in four stages (screen, confirm, map, reconcile), with procedure, impact matrix, critical-systems decision tree and workbook (Edition 4).
 - Labelled the three lines of defence in the reporting chain diagram.
